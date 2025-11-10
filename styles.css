@@ -60,3 +60,12 @@ header.shell{display:flex;align-items:center;justify-content:space-between;paddi
   .grid.two{grid-template-columns:1fr}
   .widget .chart{height:440px}
 }
+/* === Iconos en botones === */
+.btn.with-icon{display:inline-flex;align-items:center;gap:10px;justify-content:center}
+.btn.with-icon .icon{width:20px;height:20px;display:inline-block;flex:0 0 20px}
+.btn.brand-wa   {--brand:#25D366}
+.btn.brand-fb   {--brand:#1877F2}
+.btn.brand-x    {--brand:#ffffff}
+.btn.brand-tt   {--brand:#ffffff}
+.btn.brand-th   {--brand:#ffffff}
+.btn.with-icon .icon{color:var(--brand, currentColor)}
