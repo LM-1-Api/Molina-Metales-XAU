@@ -1,5 +1,5 @@
 :root{
-  --black:#0f1821;      /* fondo igual al de tu logo */
+  --black:#0f1821;
   --panel:#0F1217;
   --panel2:#12161D;
   --gold:#C6A663;
@@ -7,7 +7,6 @@
   --muted:#9AA0A6;
   --border:#1c2330;
 }
-
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--black);color:var(--white);font-family:system-ui,-apple-system,Segoe UI,Roboto,Inter,Helvetica,Arial,sans-serif}
 .shell{max-width:980px;margin:0 auto;padding:16px}
